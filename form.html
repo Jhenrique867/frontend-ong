@@ -34,7 +34,7 @@
 
     <div class="container">
         <h1 class="text-center">Cadastre Sua Ong</h1>
-      <form id="form" class="c-form">
+      <form id="form" action="conexao.php" class="c-form" method="POST">
     
         <div class="mb-3">
           <label class="form-label">Nome</label>
@@ -63,7 +63,7 @@
             <span class="span__required"></span>
         </div>
 
-        <button type="submit" class="btn btn-primary">
+        <button type="submit"  name="cadastrar" class="btn btn-primary">
             Salvar
         </button>
       </form>
