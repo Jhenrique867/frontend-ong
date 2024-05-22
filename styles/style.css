@@ -38,6 +38,10 @@
     text-align: center;
 }
 
+.paragraph {
+    text-align: justify;
+}
+
 @media screen and (max-width: 552px) {
     header, header nav .container-list{
         flex-direction: column;
@@ -53,8 +57,14 @@
     }
 }
 
+.weare {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .last_prph {
-    text-align: justify;
     align-items: center;
 }
 
@@ -74,6 +84,6 @@
 
     background-image: url("../img/logo-site.png") ;
     background-repeat: no-repeat;
-    background-size: 260%;
+    background-size: 230%;
     background-position: center;
 }
