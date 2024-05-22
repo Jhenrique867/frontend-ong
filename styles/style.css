@@ -33,6 +33,10 @@
     color: white;
 }
 
+.subTitle{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
 
 @media screen and (max-width: 552px) {
     header, header nav .container-list{
