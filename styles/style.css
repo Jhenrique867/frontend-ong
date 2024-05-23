@@ -57,6 +57,20 @@
     }
 }
 
+.welcome {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.hands_ong{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    float: right;
+}
+
 .weare {
     flex-direction: column;
     display: flex;
@@ -74,6 +88,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center
+}
+
+.hands_ong{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    float: right;
+
+    background-image: url("../img/hands.png") ;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
 }
 
 .logo-ong{
